@@ -8,6 +8,7 @@ running = True
 
 pos_x=640
 pos_y=320
+
 while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
