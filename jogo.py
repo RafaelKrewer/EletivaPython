@@ -38,7 +38,5 @@ while running:
     pygame.draw.circle(screen,"green",(pos_x,pos_y),5)
     pygame.display.flip()
 
-    clock.tick(60)  
-
-
+clock.tick(60)  
 pygame.quit()
